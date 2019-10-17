@@ -1,4 +1,4 @@
-const Employee = require("./employee.test");
+const Employee = require("./employee");
 const axios = require("axios");
 const inquirer = require("inquirer");
 
@@ -38,4 +38,5 @@ async function gitHubInfo(username) {
         console.log(err);
     }
 }
-    
+
+module.exports = Engineer;
