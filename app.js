@@ -1,10 +1,11 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const axios = require("axios");
-const employee = require("./employee");
-const engineer = require("./engineer");
-const intern = require("./intern");
-const manager = require("./manager");
+// const employee = require("./employee");
+// const engineer = require("./engineer");
+// const intern = require("./intern");
+// const manager = require("./manager");
+const questions = require("./questions");
 
 async function employeePrompt () {
     var employees = []
@@ -26,5 +27,5 @@ async function employeePrompt () {
     
     
 }
-askSomeQuestions();
+employeePrompt();
 

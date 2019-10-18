@@ -18,7 +18,9 @@ getRole(){
 }
 }
 
-function promptUser() {
+engineerPrompt();
+
+function engineerPrompt() {
     return inquirer.prompt([
       {
         type: "input",

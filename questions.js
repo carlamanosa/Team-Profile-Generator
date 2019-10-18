@@ -1,4 +1,4 @@
-const inquirer = require("inquirer";)
+const inquirer = require("inquirer");
 
 function employeePrompt() {
     return inquirer.prompt([
@@ -30,7 +30,7 @@ function managerPrompt() {
             name: "office-number",
             message: "What is your office number?",
         },
-       
+
     ])
 }
 
@@ -43,3 +43,15 @@ function internPrompt() {
         }
     ])
 }
+
+function engineerPrompt() {
+    return inquirer.prompt([
+        {
+            type: "input",
+            name: "gituser",
+            message: "What is your GitHub username?",
+        },
+    ])
+}
+
+module.exports = 
