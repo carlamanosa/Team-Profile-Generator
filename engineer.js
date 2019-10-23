@@ -18,7 +18,7 @@ getRole(){
 }
 }
 
-engineerPrompt();
+
 
 function engineerPrompt() {
     return inquirer.prompt([
